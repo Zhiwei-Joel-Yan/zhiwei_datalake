@@ -1,0 +1,29 @@
+{
+  "norway_evc": {
+    "index": 0,
+    "file": "tables/0.csv",
+    "description_file": "tables/0.description.md",
+    "format": "csv",
+    "columns": [
+      "location",
+      "user_id",
+      "session_id",
+      "plugin_time",
+      "plugout_time",
+      "connection_time",
+      "energy_session"
+    ],
+    "schema": {
+      "location": "object",
+      "user_id": "object",
+      "session_id": "object",
+      "plugin_time": "datetime64[us]",
+      "plugout_time": "object",
+      "connection_time": "object",
+      "energy_session": "object"
+    },
+    "index_start": 0,
+    "index_end": 35376,
+    "num_rows": 35377
+  }
+}
