@@ -14,16 +14,13 @@
       "energy_session"
     ],
     "schema": {
-      "location": "object",
-      "user_id": "object",
-      "session_id": "object",
-      "plugin_time": "datetime64[us]",
-      "plugout_time": "object",
-      "connection_time": "object",
-      "energy_session": "object"
-    },
-    "index_start": 0,
-    "index_end": 35376,
-    "num_rows": 35377
+      "location": "VARCHAR",
+      "user_id": "VARCHAR",
+      "session_id": "VARCHAR",
+      "plugin_time": "TIMESTAMP",
+      "plugout_time": "VARCHAR",
+      "connection_time": "VARCHAR",
+      "energy_session": "VARCHAR"
+    }
   }
 }
